@@ -9,5 +9,5 @@ RW5研究笔记
 ⚠️使用Notify for Xiaomi降级系统，本人实测，该方法无法有效降级  
 1. download 1.1.163(https://www.bandbbs.cn/resources/2312/history#resflag)  
 2. 正在寻找方法降级ing,目前的方法是找售后，但是可能要返厂
-3. 目前找到了一种方法，使用Notify for Xiaomi降级到最老版本，随便装一个第三方小程序，然后再升级到最新version，即可正常安装小程序
+3. 目前找到了一种方法，使用Notify for Xiaomi降级到最老版本，随便装一个第三方小程序，然后再升级到最新version，即可正常安装小程序（本人正在测试中  
 
