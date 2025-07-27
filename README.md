@@ -33,6 +33,9 @@ RW5研究笔记
 ## 关于小程序兼容问题&是否可安装其他设备的vela小程序
 理论来说是可以的，但可能会有UI bug  
 在米的https://iot.mi.com/vela/quickapp 中，虽然没写有自动多屏适配功能  
+但我用Aiot IDE测试，大部分是可以用的  
+所以，如果你觉得5的程序少，可以试着把4的装进去（但可能有bug，若出问题本人不负任何责任）  
+比如我就把4的五子棋（BYGiveMeFive）装到了5上，但是无BUG，完美运行  
 ## 1.2.174系统内部信息
 MIIDazCCAlOgAwIBAgIUYxxnfse6kbtN9NpLJNiVPNwUo2MwDQYJKoZIhvcNAQEL
 BQAwRTELMAkGA1UEBhMCQVUxEzARBgNVBAgMClNvbWUtU3RhdGUxITAfBgNVBAoM
@@ -54,6 +57,20 @@ yY+EqxgXQ1ajDk9XvMlAdCAD9J1Aapus87kxrEQrEhm8si252fnAlrQ58BnzleXK
 We6me40oH7beZgZlyOla46GFcyrq0SrDvicfnM8uvlIg+u4BIbDfEdu/BLXyC8g5
 MV7lwzdVE2/B1pDZyz68
 -----END CERTIFICATE-----
-但我用Aiot IDE测试，大部分是可以用的  
-所以，如果你觉得5的程序少，可以试着把4的装进去（但可能有bug，若出问题本人不负任何责任）  
-比如我就把4的五子棋（BYGiveMeFive）装到了5上，但是无BUG，完美运行  
+
+
+persist.bt_framework=20230931
+persist.mac_bt=7C:03:5E:00:00:00
+persist.at_proxy.sim_id=0
+persist.system_novice_guidance=0
+persist.autorun.modemservice=1
+persist.autorun.xrtfservice=1
+persist.bt_lowpower_flag=0
+persist.watchface.video_flag=0
+persist.bluetooth.a2dp.offloading=1
+persist.bluetooth.hfp.offloading=1
+persist.bluetooth.lea.offloading=1
+ro.product.device.devicetype=watch
+ro.product.device.screenshape=rect
+ro.product.device.screendensity=2
+ro.build.fac.version=CONBINE_LTALM055_T674
