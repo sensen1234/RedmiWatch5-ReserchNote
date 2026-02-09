@@ -31,11 +31,6 @@ RW5研究笔记
 如果想启用Xring，需要前往设置——网络与连接——移动网络——通讯（启动手表通讯能力）中启用  
 开启之后会有些许的功耗增加  
 如果你有感觉手表卡顿，可以试试启用这个来解决  
-### 关于省电模式  
-因为在关闭通讯功能后开启省电模式后，退出省电模式后会发现通信被自动打开  
-所以有理由推测省电模式为关闭通讯信号后，使用xring进行系统运行的  
-换句话说，也就有理由推测，**xring**的能效可能非常高(?  
-*因为之前的米表，重度使用续航非常短  
 
 ## 关于小程序兼容问题&是否可安装其他设备的vela小程序
 理论来说是可以的，但可能会有UI bug  
@@ -44,27 +39,6 @@ RW5研究笔记
 所以，如果你觉得5的程序少，可以试着把4的装进去（但可能有bug，若出问题本人不负任何责任）  
 比如我就把4的五子棋（BYGiveMeFive）装到了5上，但是无BUG，完美运行  
 ## 1.2.174系统内部信息
-MIIDazCCAlOgAwIBAgIUYxxnfse6kbtN9NpLJNiVPNwUo2MwDQYJKoZIhvcNAQEL
-BQAwRTELMAkGA1UEBhMCQVUxEzARBgNVBAgMClNvbWUtU3RhdGUxITAfBgNVBAoM
-GEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDAeFw0yMzEyMTMwMjU3MDhaFw0yNDA2
-MTAwMjU3MDhaMEUxCzAJBgNVBAYTAkFVMRMwEQYDVQQIDApTb21lLVN0YXRlMSEw
-HwYDVQQKDBhJbnRlcm5ldCBXaWRnaXRzIFB0eSBMdGQwggEiMA0GCSqGSIb3DQEB
-AQUAA4IBDwAwggEKAoIBAQDYELKomcUcXRBwx/EmGAvf/Kx5wEX/CYorKWeJawOV
-hCtAaCxTOiT1ZRAEhvDrlqNivtJ6Gl1P99m3Mm0MoeNVSHzOlLdDA4cIoIKZ98BP
-wG1zY7YNk3ebscvdm+mtSoSC1sDjSIM7m8hNdpUxVQOS1EXqS6aUEgI0rbdvv261
-A0ASgWv24tEOpXRcT7JQ8ZGGjiSr33u10AMkEWRw79FKraGXP4N0R4Zc/+inppmd
-MDKqBlUGO80kWBRoO97rxwHY8xgIoVQWV64/6AJW0QzhnKwM6hKn3VBcowj2iZ7N
-JF7HpkF+RxB2WzVRoiKeRHu3Fc9H95NjQxeNlEaF+s+XAgMBAAGjUzBRMB0GA1Ud
-DgQWBBQaufeaLVvlU5FGZKUuKpWVtJuCTjAfBgNVHSMEGDAWgBQaufeaLVvlU5FG
-ZKUuKpWVtJuCTjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBe
-6vXs3f09Al7l/51zuSbyJa6laoPQZfCofRriN8nOd89hasupBqNEx1Du/zIt+/CA
-b7tClG+C844BEnHxzUS73dxjQODeAq/7mi0gH+6rOgcfG2oKO7F5aMUV+HWTvbir
-KaBc5pOJ4MiG5pUU3nMuoJz1ygvAK9G4E1JIQTPY7p2zcfYeGji6i4CUbFQ+n+Kz
-yY+EqxgXQ1ajDk9XvMlAdCAD9J1Aapus87kxrEQrEhm8si252fnAlrQ58BnzleXK
-We6me40oH7beZgZlyOla46GFcyrq0SrDvicfnM8uvlIg+u4BIbDfEdu/BLXyC8g5
-MV7lwzdVE2/B1pDZyz68
------END CERTIFICATE-----
-
 
 persist.bt_framework=20230931
 persist.mac_bt=7C:03:5E:00:00:00
